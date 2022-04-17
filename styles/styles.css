@@ -16,7 +16,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Kumbh Sans', sans-serif;
-    overflow: hidden;
 }
 
 input {
@@ -33,7 +32,7 @@ input {
 
 .wrapper-content__main {
     max-width: 375px;
-    padding: 120px 1.8em 0 1.8em;
+    padding: 120px 2em 0 2em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,7 +161,7 @@ input:checked + label + .item__arrow-btn img {
         position: absolute;
         top: 40%;
         right: 100px;
-        overflow: initial;
+
         z-index: 1;
     }
 
@@ -202,8 +201,9 @@ input:checked + label + .item__arrow-btn img {
 /* Attribution */
 
 .attribution {
-    margin-bottom: 1em;
+    margin: 1em 0;
     background-color: black;
+    border-radius: 10px;
     padding: 0.5em;
     font-size: 11px;
     text-align: center;
