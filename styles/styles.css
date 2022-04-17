@@ -55,6 +55,7 @@ input {
     background-color: white;
     border-radius: 1.5rem;
     padding: 0 1.5rem 3rem 1.5rem;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.226);
 }
 
 .card__header {
@@ -64,6 +65,7 @@ input {
     position: relative;
 }
 .bg-pattern {
+    width: 100%;
     position: relative;
 }
 .ilustration-woman {
