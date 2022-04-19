@@ -189,6 +189,7 @@ input:checked + label + .item__arrow-btn img {
         left: -5.5em;
     }
     .bg-pattern {
+        width: max-content;
         position: absolute;
         top: -22.6em;
         left: -36em;
